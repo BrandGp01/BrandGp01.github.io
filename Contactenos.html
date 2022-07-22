@@ -1,0 +1,153 @@
+
+<head>
+    <!doctype html>
+    <html lang="en">  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Links--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Playfair+Display:ital,wght@1,500&family=Raleway:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!---------->
+
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="stylesheet" href="Informacion-PP.css">
+    <!---->
+
+
+    <!--Script-->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Inicio</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!---------->
+
+
+</head>
+
+<body>
+
+    <!--Encabezado-->
+    <header class="header">
+        <div class="container logo">
+            <nav class="navigation">
+                <ul class="menu">
+                    <li><a href=file:///C:/Users/USER/Desktop/Laboratorio%2016/index.html> Inicio </a></li>
+                    <li><a href=file:///C:/Users/USER/Desktop/Laboratorio%2016/Quienes_somos.html> Quienes somos </a></li>
+                    <li><a href=file:///C:/Users/USER/Desktop/Laboratorio%2016/Informacion.html> Informacion </a></li>
+                    <li><a href=file:///C:/Users/USER/Desktop/Laboratorio%2016/Profesores.html> Profesores </a></li>
+                    <li><a href=file:///C:/Users/USER/Desktop/Laboratorio%2016/Alumno.html> Alumnos </a></li>
+                    <li><a href=file:///C:/Users/USER/Desktop/Laboratorio%2016/Contactenos.html> Contactenos </a></li>
+                </ul>
+            </nav>
+        </div>
+    <!------------->
+
+    <!--FORMULARIO-->
+
+    <!--Apoderado-->
+
+        <blockquote class="blockquote">
+            <h3 style="color:rgb(54, 74, 100)">Apoderado</h3>
+        </blockquote>
+
+    <hr>
+
+    
+      
+<form action="">
+        <div class="container">
+            <table>
+                <tr>
+                    <td><label for="">Nombre :</label></td>
+                    <td><input type="text" required placeholder="Nombre" style="margin:5px"></td>
+                </tr>
+              
+                <tr>
+                    <td><label for="">Primer Apellido :</label></td>
+                    <td><input type="text" required placeholder="Primer Apellido" style="margin:5px"></td>
+                </tr>
+              
+                <tr>
+                    <td><label for="">Segundo Apellido :</label></td>
+                    <td><input type="text" required placeholder="Segundo Apellido" style="margin:5px"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Correo Electrónico :</label></td>
+                    <td><input type="email" placeholder="Correo Electrónico" style="margin:5px"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="">Número de Teléfono :</label></td>
+                    <td><input type="text" required pattern="[0-9]{9}" placeholder="--- --- ---" style="margin:5px"></td>
+                </tr>
+
+            </table>
+
+    </div>
+    <!--------->
+
+
+    <!--Estudiante-->
+    <blockquote class="blockquote">
+        <h3 style="color:rgb(54, 74, 100)">Alumno</h3>
+    </blockquote>
+
+<hr>
+
+<div class="container">
+  
+        <table>
+            <tr>
+                <td><label for="">Nombre :</label></td>
+                <td><input type="text" required placeholder="Nombre" style="margin:5px"></td>
+            </tr>
+          
+            <tr>
+                <td><label for="">Primer Apellido :</label></td>
+                <td><input type="text" required placeholder="Primer Apellido" style="margin:5px"></td>
+            </tr>
+          
+            <tr>
+                <td><label for="">Segundo Apellido :</label></td>
+                <td><input type="text" required placeholder="Segundo Apellido" style="margin:5px"></td>
+            </tr>
+
+            <tr>
+                <td><label for="">Selecciona su nivel educativo :</label></td>
+                <td>
+                    <label for="Seleccionar su nivel educativo"></label>
+                    <select name="" id="">
+                        <option disabled value="Seleccionar el nivel educativo" style="color:gray;margin:5px">Seleccionar una Aerolinea</option>
+                        <option value="Inicial">Inicial</option>
+                        <option value="Primaria">Primaria</option>
+                        <option value="Secundaria">Secundaria</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="">Ingrese el codigo de alumno :</label></td>
+                <td><input type="text" required placeholder="codigo de Alumno" style="margin:5px"></td>
+            </tr>
+
+        </table>
+
+
+</div>
+
+          <h3 style="margin: top 20px;" style="color:rgb(54, 74, 100)">Motivo por el cual nos contacta</h3>
+          <hr>
+          <td>  <textarea required cols="120" rows="4" style="margin: 20px;" placeholder="Redacte el motivo de su consulta"></textarea></td>
+          
+          
+<br> 
+</html>
+<input type="submit" style="margin:5px;background-color:rgb(255, 255, 255);color:rgb(0, 0, 0)">
+</form>
